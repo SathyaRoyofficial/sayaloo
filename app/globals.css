@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFF0F5;
+  /* Lavender Blush */
+  --foreground: #5D4037;
+  /* Rosewood */
+  --rose-red: #FF4081;
+  /* Pink Accent */
+  --blush-pink: #FF80AB;
+  /* Light Pink */
+  --gold: #FFD700;
+  --overlay: rgba(255, 240, 245, 0.9);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-rose-red: var(--rose-red);
+  --color-blush-pink: var(--blush-pink);
+  --color-gold: var(--gold);
+  --font-typewriter: var(--font-typewriter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-typewriter), monospace;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Custom Utilities */
+.text-gradient {
+  background: linear-gradient(to right, var(--rose-red), var(--blush-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
