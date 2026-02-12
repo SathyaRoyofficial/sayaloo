@@ -15,25 +15,36 @@ export const content = {
     memory1: {
         question: "Do you remember when our love story officially began?",
         type: "date",
-        correctDate: "2023-11-14", // Example date, Admin should change this
-        hint: "Our special day ❤️",
+        correctDate: "2023-01-01", // Example date, Admin should change this
+        hint: "Our special day - 2023-01-01 ❤️",
         wrongMessage: "Try again, I know you remember 😉",
     },
     timeline: [
-        { date: "2023", title: "Sep 1", description: "A thread tied, but destiny had already chosen us..." },
-        { date: "2023", title: "Sep 10", description: "A quiet birthday kindness, from a heart learning your name." },
-        { date: "2023", title: "Nov 14", description: "Where our story found its first breath.." },
-        { date: "2023", title: "Dec 11", description: "my heart fit you better than the fabric." },
-        { date: "2023", title: "Dec 15", description: "Two of us.One campus. A thousand unspoken feelings.." },
-        { date: "2023", title: "Dec 15", description: "You leaned on my shoulder — the world felt suddenly lighter." },
-        { date: "2023", title: "Dec 16", description: "Two hearts met, and nothing stayed the same again" },
-        { date: "Now", title: "Forever", description: "Writing our future." },
+        // { date: "2023", title: "Sep 1", description: "A thread tied, but destiny had already chosen us..." },
+        // { date: "2023", title: "Sep 10", description: "A quiet birthday kindness, from a heart learning your name." },
+        // { date: "2023", title: "Nov 14", description: "Where our story found its first breath.." },
+        // { date: "2023", title: "Dec 11", description: "my heart fit you better than the fabric." },
+        // { date: "2023", title: "Dec 15", description: "Two of us.One campus. A thousand unspoken feelings.." },
+        // { date: "2023", title: "Dec 15", description: "You leaned on my shoulder — the world felt suddenly lighter." },
+        // { date: "2023", title: "Dec 16", description: "Two hearts met, and nothing stayed the same again" },
+        // { date: "Now", title: "Forever", description: "Writing our future." },
+        { date: "2021", title: "Jan 5", description: "A simple hello, but fate had already made us friends..." },
+{ date: "2021", title: "Feb 18", description: "A small birthday wish, from a heart learning your vibe." },
+{ date: "2022", title: "Apr 9", description: "Where our friendship found its first spark.." },
+{ date: "2022", title: "Jun 21", description: "My laughs matched yours better than coincidence." },
+{ date: "2023", title: "Aug 3", description: "Two of us. One classroom. A thousand silent jokes.." },
+{ date: "2023", title: "Sep 14", description: "You sat beside me — the chaos felt suddenly calmer." },
+{ date: "2024", title: "Nov 2", description: "Two minds clicked, and nothing felt awkward again" },
+{ date: "Now", title: "Always", description: "Building memories that outlive time." },
     ],
     memory2: {
         question: "Where did we first meet?",
         type: "choice",
-        options: ["AB2-F1", "AB2-F2", "AB2-F3", "AB2-F4"],
-        correctAnswer: "AB2-F1", // Admin should change this
+        // options: ["AB2-F1", "AB2-F2", "AB2-F3", "AB2-F4"],
+        // correctAnswer: "AB2-F1", // Admin should change this
+        // wrongMessage: "Not quite! Think back... 🤔",
+        options: ["CENEMAA", "SINEMA", "CINIMA", "CINEMA"],
+        correctAnswer: "CINEMA", // Admin should change this
         wrongMessage: "Not quite! Think back... 🤔",
     },
     gallery: [
@@ -46,7 +57,7 @@ export const content = {
         type: "text",
         correctAnswers: ["Your smile", "Smile", "Your eyes", "Eyes"], // Case insensitive check
         hint: "It lights up the room  which isn't visible for you!",
-        wrongMessage: "Close! But that's not the #1 thing 🥰",
+        wrongMessage: "Close! But that's not the #1 thing - Smile is answer 🥰",
     },
     letter: `From the moment you entered my life, everything changed. 
   
